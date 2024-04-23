@@ -34,8 +34,15 @@ To get started with Svelcordity, follow these steps:
     ```
 
 4. Install the dependencies:
+
     ```
     npm install
+    ```
+
+5. Create a `.env` file in the root directory of the project and add your Discord application's `CLIENT_ID` and `CLIENT_SECRET` for server-side authentication:
+    ```
+    CLIENT_ID=your_client_id
+    CLIENT_SECRET=your_client_secret
     ```
 
 ## Setting Up Unity WebGL
