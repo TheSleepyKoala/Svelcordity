@@ -70,7 +70,7 @@ To get started with Svelcordity, follow these steps:
     npm run dev
     ```
 
-2. Open your browser and visit `http://localhost:5173` to see your Discord Activity in action.
+2. Open your browser and visit `https://localhost:5173` to see your Discord Activity in action.
 
 3. When you're ready to deploy, build the project:
 
