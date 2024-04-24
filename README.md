@@ -2,6 +2,9 @@
 
 Svelcordity is a template repository with a simple setup for integrating your Discord Activity with SvelteKit. This project utilizes a Unity WebGL build to display your Discord activity seamlessly. As an example, a roguelike game built with Unity is included in this template.
 
+Text guide not your cup of tea? Try the [video tutorial](https://www.youtube.com/watch?v=HLRsdLQW4y4)! :)  
+[![Watch the video](https://img.youtube.com/vi/HLRsdLQW4y4/hqdefault.jpg)](https://www.youtube.com/watch?v=HLRsdLQW4y4)
+
 ## Features
 
 -   Easy integration of Discord Activity with SvelteKit
