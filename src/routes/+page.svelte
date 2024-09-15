@@ -8,6 +8,15 @@
     let discordHelper: DiscordHelper;
 
     onMount(() => {
+        if (window.location.hostname.includes("discordsays.com")) {
+            const originalFetch = window.fetch;
+
+            window.fetch = (input, init) => {
+                // Use the saved original fetch function inside the redefined one
+                return originalFetch(".proxy/" + input, init);
+            };
+        }
+
         discordHelper = new DiscordHelper();
         discordHelper.setupParentIframe();
         initializeUnity();
